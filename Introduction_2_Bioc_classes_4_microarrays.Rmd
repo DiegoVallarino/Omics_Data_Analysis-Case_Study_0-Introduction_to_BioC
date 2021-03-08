@@ -266,6 +266,7 @@ The main element, and indeed the only one to be provided to create an <tt>Expres
 
 
 ```{r creaExpressionSet1}
+library("Biobase")
 myEset <- ExpressionSet(expressionValues)
 class(myEset)
 show(myEset)
